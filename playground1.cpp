@@ -28,15 +28,15 @@ int main() {
   int pi_as_int = (int) pi; // Simply removes decimal, no rounding
   std::string my_name = "Aziz";
   c = a--; // post decrement - c is equal to a - 1, a is unchanged
-  b = ++a; //pre-increment - b is equal to 1 + a, a is also equal to a + a
+  b = ++a; //pre-increment - b is equal to 1 + a, a is also changed
   
   a *= c; // multiply a by c
-  a %= 5; // a is now a modulo 5
+  a %= 5; // a is now (a modulo 5)
   cout << "I am " << age << " years old." << endl;
   cout << "The value of pi is " << pi << endl;
   cout << "My name is " << my_name<<endl; //
   
-  // Relational operators is exactly like those in Swift
+  // Relational operators are exactly like those in Swift
   
   // BITWISE OPERATORS
   
@@ -68,7 +68,7 @@ int main() {
   
   cout << "The memory address of " << new_message << " is " << &new_message << endl;
   
-  std::string* pointer_my_name =  &my_name; // asterick after type is means it's a pointer
+  std::string* pointer_my_name =  &my_name; // asterick after type means it's a pointer
   
   cout << "my name is " *pointer_my_name <<endl;
   
